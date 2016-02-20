@@ -46,7 +46,7 @@ module.exports = {
       .assert.elementPresent("form")
       .assert.elementPresent("input[name=email]")
       .assert.elementPresent("input[name=password]")
-      .assert.elementPresent("input[value=Login")
+      .assert.elementPresent("input[value=Login]")
       .assert.containsText(".loginForm","Login")
       .click(".login")
       .pause(1000)
