@@ -33,7 +33,6 @@ module.exports = {
       .assert.elementPresent(".logo")
       .end();
   }
-*/
 
   "Superqa Login Test" : function (browser) {
 
@@ -52,4 +51,5 @@ module.exports = {
       .pause(1000)
       .end();
   }
+ */
 };
