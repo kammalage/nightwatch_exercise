@@ -28,7 +28,8 @@ module.exports = {
 		.pause(1000)
 		.assert.containsText(".cohortMenu","Cohort 99")
 		.assert.containsText(".top li:first-child .mainLine a","Cohort 99")
-		.jqueryClick(".cohortMenu li:contains('Cohort 99') .removeAccount")
+		.click(".cohortMenu li:contains('Cohort 99') .removeAccount")
+		//.jqueryClick(".cohortMenu li:contains('Cohort 99') .removeAccount")
 		.acceptAlert()
 		.pause(1000)
 		.end();
